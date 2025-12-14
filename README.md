@@ -24,10 +24,10 @@ It is built using **HTML, CSS**, and published using **GitHub Pages**.
 ---
 
 ## 📁 Folder Structure
-Homepage.html
-Categories.html
-product_smartphones.html
-product_laptops.html
-product_accessories.html
-aboutus.html
-contact.html
+- Homepage.html
+- Categories.html
+- product_smartphones.html
+- product_laptops.html
+- product_accessories.html
+- aboutus.html
+- contact.html
