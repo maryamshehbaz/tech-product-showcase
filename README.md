@@ -9,8 +9,8 @@ It is built using **HTML, CSS**, and published using **GitHub Pages**.
 
 ## 👥 Group Members
 - Maryam Shehbaz (Leader)
-- Abeera Ahmad
-- Abdul Wasui
+- Abeera Ahmed
+- Abdul Wasiu
 - Uzair Azam
 
 ---
@@ -24,3 +24,10 @@ It is built using **HTML, CSS**, and published using **GitHub Pages**.
 ---
 
 ## 📁 Folder Structure
+Homepage.html
+Categories.html
+product_smartphones.html
+product_laptops.html
+product_accessories.html
+aboutus.html
+contact.html
