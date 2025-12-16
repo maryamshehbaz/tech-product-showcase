@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Modern Tech Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d1117;
+            color: #e5e7eb;
+        }
+
+        /* Navbar */
+        .navbar {
+            width: 90%;
+            padding: 18px 50px;
+            background: rgba(10, 14, 22, 0.9);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar h2 {
+            color: #4ea1ff;
+            margin: 0;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            margin-left: 22px;
+            color: #e5e7eb;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #4ea1ff;
+        }
+
+        /* Header */
+        .header {
+            padding: 130px 50px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #4ea1ff;
+        }
+
+        .header p {
+            font-size: 20px;
+            color: #b0b9c6;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 50px;
+            max-width: 1100px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        .about-section h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: #4ea1ff;
+        }
+
+        .about-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .box {
+            background: #111827;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #1f2937;
+            transition: 0.3s;
+        }
+
+        .box:hover {
+            border-color: #4ea1ff;
+            transform: translateY(-4px);
+        }
+
+        .box h3 {
+            margin-top: 0;
+            color: #4ea1ff;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px 0;
+            background: #090c13;
+            margin-top: 40px;
+            color: #7d8694;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Modern Tech Showcase</h2>
+        <div class="nav-links">
+            <a href="homepage.html">Home</a>
+            <a href="categories.html">Categories</a>
+             <a href="product_smartphones.html">Smartphones</a>
+            <a href="product_laptops.html">Laptops</a>
+            <a href="product_accessories.html">Accessories</a>
+            <a href="aboutus.html">About us</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>About Us</h1>
+        <p>Your trusted destination for modern technology insights and product exploration.</p>
+    </div>
+
+    <div class="about-section">
+        <div class="two-columns" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:40px; margin-bottom:40px;">
+            <div>
+                <h2>Who We Are</h2>
+                <p>
+                    Modern Tech Showcase is a platform created for technology lovers, students, and everyday users who want
+                    simple, clean, and modern information about trending tech products. From smartphones to laptops to
+                    accessories, we highlight the best features and help you explore what’s new in the world of technology.
+                </p>
+            </div>
+
+            <div>
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to provide a sleek, modern, and user-friendly experience where users can discover different
+                    tech categories, compare products, and stay updated with the latest innovations — all in one place.
+                </p>
+            </div>
+        </div>
+
+        <div class="about-boxes">
+            <div class="box">
+                <h3>✔ Modern UI</h3>
+                <p>A dark and clean interface built for easy navigation and a premium feel.</p>
+            </div>
+
+            <div class="box">
+                <h3>✔ Tech Categories</h3>
+                <p>Explore phones, laptops, smartwatches, accessories, and more with well‑organized layouts.</p>
+            </div>
+
+            <div class="box">
+                <h3>✔ Product Pages</h3>
+                <p>Each product comes with visuals, details, and a well‑designed showcase layout.</p>
+            </div>
+
+            <div class="box">
+                <h3>✔ Simple for Everyone</h3>
+                <p>Designed so that even beginners can understand and explore technology easily.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">© 2025 Modern Tech Showcase • All Rights Reserved</div>
+</body>
+</html>
