@@ -1,167 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laptops - Modern Tech Showcase</title>
 
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0a0f1a; 
-            color: #e5e7eb;
-        }
-        .navbar {
-            width: 90%;
-            padding: 18px 50px;
-            background: rgba(10, 14, 22, 0.95);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 1px solid #1f2937;
-        }
-        .navbar h2 { color: #4ea1ff; margin: 0; }
-        .nav-links a {
-            text-decoration: none;
-            margin-left: 22px;
-            color: #e5e7eb;
-            transition: 0.3s;
-        }
-        .nav-links a:hover { color: #4ea1ff; }
-        .header {
-            padding: 130px 50px 20px;
-            text-align: center;
-        }
-        .header h1 { color: #4ea1ff; font-size: 42px; }
-        .product-container {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 0 40px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 35px;
-        }
-        .product-card {
-            background: #111827;
-            border: 1px solid #1f2937;
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-            transition: 0.3s;
-        }
-        .product-card:hover {
-            border-color: #4ea1ff;
-            transform: translateY(-5px);
-            box-shadow: 0 0 20px rgba(78, 161, 255, 0.3);
-        }
-        .product-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: contain;
-            margin-bottom: 15px;
-        }
-        .price { color: #7fb6ff; }
-        .desc { color: #b0b9c6; }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0a0f1a;
+        color: #e5e7eb;
+      }
+      .navbar {
+        width: 90%;
+        padding: 18px 50px;
+        background: rgba(10, 14, 22, 0.95);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid #1f2937;
+      }
+      .navbar h2 {
+        color: #4ea1ff;
+        margin: 0;
+      }
+      .nav-links a {
+        text-decoration: none;
+        margin-left: 22px;
+        color: #e5e7eb;
+        transition: 0.3s;
+      }
+      .nav-links a:hover {
+        color: #4ea1ff;
+      }
+      .header {
+        padding: 130px 50px 20px;
+        text-align: center;
+      }
+      .header h1 {
+        color: #4ea1ff;
+        font-size: 42px;
+      }
+      .product-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 35px;
+      }
+      .product-card {
+        background: #111827;
+        border: 1px solid #1f2937;
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        transition: 0.3s;
+      }
+      .product-card:hover {
+        border-color: #4ea1ff;
+        transform: translateY(-5px);
+        box-shadow: 0 0 20px rgba(78, 161, 255, 0.3);
+      }
+      .product-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+        margin-bottom: 15px;
+      }
+      .price {
+        color: #7fb6ff;
+      }
+      .desc {
+        color: #b0b9c6;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="navbar">
-        <h2>Modern Tech Showcase</h2>
-        <div class="nav-links">
-            <a href="Homepage.html">Home</a>
-            <a href="categories.html">Categories</a>
-            <a href="product_smartphones.html">Smartphones</a>
-            <a href="product_laptops.html">Laptops</a>
-            <a href="product_accessories.html">Accessories</a>
-            <a href="aboutus.html">About us</a>
-            <a href="contact.html">Contact us</a>
-        </div>
+      <h2>Modern Tech Showcase</h2>
+      <div class="nav-links">
+        <a href="Homepage.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="product_smartphones.html">Smartphones</a>
+        <a href="product_laptops.html">Laptops</a>
+        <a href="product_accessories.html">Accessories</a>
+        <a href="aboutus.html">About us</a>
+        <a href="contact.html">Contact us</a>
+      </div>
     </div>
 
     <div class="header">
-        <h1>Laptops</h1>
+      <h1>Laptops</h1>
     </div>
 
     <section class="product-container">
+      <!-- Item 1 -->
+      <div class="product-card">
+        <img src="..\images\M2 MacBook Pro.jpg" alt="MacBook" />
+        <h3>MacBook Air 2019</h3>
+        <p class="price">70,000 PKR</p>
+        <p class="desc">Best Mac in the budget range.</p>
+      </div>
 
-        <!-- Item 1 -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\M2 MacBook Pro.jpg" alt="MacBook">
-            <h3>MacBook Air 2019</h3>
-            <p class="price">70,000 PKR</p>
-            <p class="desc">Best Mac in the budget range.</p>
-        </div>
+      <!-- Item 2 -->
+      <div class="product-card">
+        <img src="..\images\HP ENVY Laptop.jpg" alt="Elitebook" />
+        <h3>Elite Book Pro</h3>
+        <p class="price">50,000 PKR</p>
+        <p class="desc">Best from Microsoft.</p>
+      </div>
 
-        <!-- Item 2 -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\HP ENVY Laptop.jpg" alt="Elitebook">
-            <h3>Elite Book Pro</h3>
-            <p class="price">50,000 PKR</p>
-            <p class="desc">Best from Microsoft.</p>
-        </div>
+      <!-- Item 3 -->
+      <div class="product-card">
+        <img src="..\images\Laptop Thinkpad .jpg" alt="Thinkpad" />
+        <h3>Lenovo ThinkPad</h3>
+        <p class="price">67,000 PKR</p>
+        <p class="desc">Great for light gaming and heavy office work.</p>
+      </div>
 
-        <!-- Item 3 -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\Laptop Thinkpad .jpg" alt="Thinkpad">
-            <h3>Lenovo ThinkPad</h3>
-            <p class="price">67,000 PKR</p>
-            <p class="desc">Great for light gaming and heavy office work.</p>
-        </div>
+      <!-- Item 4 -->
+      <div class="product-card">
+        <img src="..\images\G16.jpg" alt="ASUS ROG" />
+        <h3>ASUS ROG Strix</h3>
+        <p class="price">120,000 PKR</p>
+        <p class="desc">Perfect for gaming and multitasking.</p>
+      </div>
 
-        <!-- Item 4 -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\G16.jpg" alt="ASUS ROG">
-            <h3>ASUS ROG Strix</h3>
-            <p class="price">120,000 PKR</p>
-            <p class="desc">Perfect for gaming and multitasking.</p>
-        </div>
+      <!-- Item 5 FIXED -->
+      <div class="product-card">
+        <img src="..\images\DELL XPS.jpg" alt="Dell XPS" />
+        <h3>Dell XPS 13</h3>
+        <p class="price">95,000 PKR</p>
+        <p class="desc">Sleek design with powerful performance.</p>
+      </div>
 
-        <!-- Item 5 FIXED -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\DELL XPS.jpg" alt="Dell XPS">
-            <h3>Dell XPS 13</h3>
-            <p class="price">95,000 PKR</p>
-            <p class="desc">Sleek design with powerful performance.</p>
-        </div>
+      <!-- Item 6 FIXED -->
+      <div class="product-card">
+        <img src="..\images\L4.jpg" alt="Acer Predator" />
+        <h3>Acer Predator Helios 300</h3>
+        <p class="price">110,000 PKR</p>
+        <p class="desc">
+          High refresh rate display and excellent cooling system.
+        </p>
+      </div>
 
-        <!-- Item 6 FIXED -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\L4.jpg" alt="Acer Predator">
-            <h3>Acer Predator Helios 300</h3>
-            <p class="price">110,000 PKR</p>
-            <p class="desc">High refresh rate display and excellent cooling system.</p>
-        </div>
+      <!-- Item 7 FIXED -->
+      <div class="product-card">
+        <img src="..\images\MSI Stealth 18 .jpg" alt="MSI Stealth" />
+        <h3>MSI Stealth 15M</h3>
+        <p class="price">130,000 PKR</p>
+        <p class="desc">Lightweight gaming laptop with strong performance.</p>
+      </div>
 
-        <!-- Item 7 FIXED -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\MSI Stealth 18 .jpg" alt="MSI Stealth">
-            <h3>MSI Stealth 15M</h3>
-            <p class="price">130,000 PKR</p>
-            <p class="desc">Lightweight gaming laptop with strong performance.</p>
-        </div>
+      <!-- Item 8 FIXED -->
+      <div class="product-card">
+        <img src="..\images\Razer Blade 16 .jpg" alt="Razer Blade" />
+        <h3>Razer Blade 15</h3>
+        <p class="price">150,000 PKR</p>
+        <p class="desc">Premium build quality with top-tier gaming specs.</p>
+      </div>
 
-        <!-- Item 8 FIXED -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\Razer Blade 16 .jpg" alt="Razer Blade">
-            <h3>Razer Blade 15</h3>
-            <p class="price">150,000 PKR</p>
-            <p class="desc">Premium build quality with top-tier gaming specs.</p>
-        </div>
-
-        <!-- Item 9 FIXED -->
-        <div class="product-card">
-            <img src="C:\Users\NG\Documents\tech-product-showcase\images\download_phone.jpg" alt="Surface Laptop">
-            <h3>Microsoft Surface Laptop 5</h3>
-            <p class="price">140,000 PKR</p>
-            <p class="desc">Excellent for productivity with a stunning display.</p>
-        </div>
-
+      <!-- Item 9 FIXED -->
+      <div class="product-card">
+        <img src="..\images\download_phone.jpg" alt="Surface Laptop" />
+        <h3>Microsoft Surface Laptop 5</h3>
+        <p class="price">140,000 PKR</p>
+        <p class="desc">Excellent for productivity with a stunning display.</p>
+      </div>
     </section>
-
-</body>
+  </body>
 </html>
